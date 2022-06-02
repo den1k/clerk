@@ -6,6 +6,16 @@ Changes can be:
 * 🛠 dev improvements
 
 ## 0.8.442 (2022-06-01)
+* 💫 First cut of Clerk Examples
+
+    Add the `nextjournal.clerk/example` macro that evaluates to `nil`,
+    just like `clojure.core/comment` when used outside of Clerk. When
+    used in the context of Clerk it renders the expressions with their
+    resulting values.
+    
+* 🐞 Fix reported duration for static bundle build step
+
+## 0.8.442 (2022-06-01)
 * 🌟 Simplify viewer api by letting `:transform-fn` act on wrapped-value (#152)
     
     This simplifies the viewer api by letting `:transform-fn` act on
